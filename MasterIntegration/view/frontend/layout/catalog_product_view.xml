@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<body>
+    <referenceBlock name="content">
+        <block class="OficialFarma\MasterIntegration\Block\Config" name="config-block" template="OficialFarma_MasterIntegration::config.phtml"/>
+    </referenceBlock>
+</body>

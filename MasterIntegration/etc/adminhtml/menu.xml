@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="OficialFarma_MasterIntegration::menu" title="Master" module="OficialFarma_MasterIntegration" sortOrder="999" resource="OficialFarma_MasterIntegration::menu"/>
+        <add id="OficialFarma_MasterIntegration::home" title="Config" module="OficialFarma_MasterIntegration" sortOrder="1000" parent="OficialFarma_MasterIntegration::menu" resource="OficialFarma_MasterIntegration::home" action="master/index/index"/>
+    </menu>
+</config>
